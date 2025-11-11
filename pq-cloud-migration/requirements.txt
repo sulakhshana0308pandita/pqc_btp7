@@ -1,0 +1,13 @@
+# requirements.txt
+# Note: building liboqs/pyoqs is platform-specific. The project includes a simulated KEM fallback
+# so basic functionality and tests run without pyoqs. To use real Kyber, install liboqs and pyoqs.
+pyoqs==0.6.0
+cryptography>=40.0.0
+boto3
+Flask
+numpy
+pandas
+matplotlib
+python-dotenv
+streamlit
+
